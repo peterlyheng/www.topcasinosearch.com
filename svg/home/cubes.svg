@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="124.334" height="67.818" viewBox="0 0 124.334 67.818">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_526" data-name="Rectangle 526" width="48.629" height="49.583" fill="#064d2e"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_526-2" data-name="Rectangle 526" width="48.648" height="48.648" fill="#cc9ae2"/>
+    </clipPath>
+  </defs>
+  <g id="Group_584" data-name="Group 584" transform="translate(0)">
+    <g id="Group_583" data-name="Group 583" transform="translate(0 0)">
+      <g id="Group_571" data-name="Group 571" transform="matrix(0.848, 0.53, -0.53, 0.848, 26.275, 0)">
+        <g id="Group_554" data-name="Group 554" transform="translate(0 0)" clip-path="url(#clip-path)">
+          <path id="Path_792" data-name="Path 792" d="M41.645,48.648H7a7,7,0,0,1-7-7V7A7,7,0,0,1,7,0H41.645a7,7,0,0,1,7,7V41.645a7,7,0,0,1-7,7" transform="translate(0.228 0.426)" fill="#064d2e"/>
+        </g>
+      </g>
+      <ellipse id="Ellipse_66" data-name="Ellipse 66" cx="6.675" cy="6.675" rx="6.675" ry="6.675" transform="matrix(0.848, 0.53, -0.53, 0.848, 29.005, 11.825)" fill="#f6f0ec"/>
+      <ellipse id="Ellipse_67" data-name="Ellipse 67" cx="6.675" cy="6.675" rx="6.675" ry="6.675" transform="matrix(0.848, 0.53, -0.53, 0.848, 18.899, 27.998)" fill="#f6f0ec"/>
+      <ellipse id="Ellipse_68" data-name="Ellipse 68" cx="6.675" cy="6.675" rx="6.675" ry="6.675" transform="matrix(0.848, 0.53, -0.53, 0.848, 45.178, 21.931)" fill="#f6f0ec"/>
+      <ellipse id="Ellipse_69" data-name="Ellipse 69" cx="6.675" cy="6.675" rx="6.675" ry="6.675" transform="matrix(0.848, 0.53, -0.53, 0.848, 35.072, 38.103)" fill="#f6f0ec"/>
+      <g id="Group_572" data-name="Group 572" transform="matrix(0.974, -0.225, 0.225, 0.974, 65.989, 13.438)">
+        <g id="Group_554-2" data-name="Group 554" clip-path="url(#clip-path-2)">
+          <path id="Path_792-2" data-name="Path 792" d="M41.645,48.648H7a7,7,0,0,1-7-7V7A7,7,0,0,1,7,0H41.645a7,7,0,0,1,7,7V41.645a7,7,0,0,1-7,7" transform="translate(0 0)" fill="#cc9ae2"/>
+        </g>
+      </g>
+    </g>
+    <ellipse id="Ellipse_70" data-name="Ellipse 70" cx="6.675" cy="6.675" rx="6.675" ry="6.675" transform="matrix(0.848, 0.53, -0.53, 0.848, 93.086, 22.634)" fill="#f6f0ec"/>
+  </g>
+</svg>
