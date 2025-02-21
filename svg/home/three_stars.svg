@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="131.728" height="69.419" viewBox="0 0 131.728 69.419">
+<svg xmlns="http://www.w3.org/2000svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="131.728" height="69.419" viewBox="0 0 131.728 69.419">
   <defs>
     <clipPath id="clip-path">
       <rect id="Rectangle_523" data-name="Rectangle 523" width="66.142" height="63.448" fill="#eb9c46"/>
@@ -27,4 +27,4 @@
       </g>
     </g>
   </g>
-</svg>
+<svg>
