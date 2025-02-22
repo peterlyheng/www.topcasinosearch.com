@@ -1,0 +1,8 @@
+<svg id="Icons_Shopping_ic-shopping-wallet" data-name="Icons / Shopping / ic-shopping-wallet" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_372" data-name="Rectangle 372" width="24" height="24" fill="none"/>
+  <g id="ic-shopping-wallet" transform="translate(2 2.326)">
+    <rect id="Rectangle_109" data-name="Rectangle 109" width="20" height="16" rx="2" transform="translate(0 3.347)" fill="none" stroke="#064d2e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_347" data-name="Path 347" d="M18,6V4.66a2,2,0,0,0-2.55-1.93L2.88,6.34" transform="translate(-2 -2.653)" fill="none" stroke="#064d2e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+    <path id="Path_348" data-name="Path 348" d="M22,11.64H18.18A2.18,2.18,0,0,0,16,13.82h0A2.19,2.19,0,0,0,18.18,16H22" transform="translate(-2 -2.653)" fill="none" stroke="#064d2e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+  </g>
+</svg>

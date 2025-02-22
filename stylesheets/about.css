@@ -1,0 +1,71 @@
+.Mobile {
+  display: none;
+}
+@media (max-width: 700px) {
+  .Mobile {
+    display: block;
+  }
+}
+
+.Desk {
+  display: block;
+}
+@media (max-width: 700px) {
+  .Desk {
+    display: none;
+  }
+}
+
+p.about-sort {
+  text-align: left;
+}
+@media (max-width: 700px) {
+  p.about-sort {
+    text-align: left;
+  }
+}
+
+.our-process-divs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 1em;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  margin-top: 1rem;
+  margin-left: -100px;
+  margin-right: -100px;
+}
+@media (max-width: 700px) {
+  .our-process-divs {
+    grid-template-columns: 1fr;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1100px) {
+  .our-process-divs {
+    grid-template-columns: 1fr;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.process-item {
+  border: 3px solid #064d2e;
+  padding: 15px;
+  text-align: center;
+}
+@media screen and (min-width: 700px) and (max-width: 1100px) {
+  .process-item {
+    padding: 30px 50px;
+  }
+}
+.process-item .title {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+}
+.process-item p {
+  font-size: 0.8rem;
+}/*# sourceMappingURL=about.css.map */

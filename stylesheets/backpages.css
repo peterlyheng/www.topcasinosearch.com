@@ -1,0 +1,350 @@
+.edit-styles {
+  margin-top: 6em;
+  background-color: #f6f0ec;
+}
+.edit-styles .my-form-group {
+  padding: 1em 0;
+}
+.edit-styles label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.edit-styles input {
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+.edit-styles input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+.edit-styles input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+.edit-styles textarea {
+  width: 100%;
+  height: 20em;
+}
+
+.personal-area {
+  padding: 5rem 0;
+}
+
+.editUserInfoForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@media (max-width: 700px) {
+  .editUserInfoForm {
+    flex-direction: column;
+  }
+}
+.editUserInfoForm label {
+  display: none;
+}
+.editUserInfoForm input {
+  border: 2px solid #064d2e;
+  color: #064d2e;
+  padding: 10px 0px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+}
+.editUserInfoForm input[type=file] {
+  padding: 0;
+  opacity: 0;
+}
+.editUserInfoForm input::-moz-placeholder {
+  color: #064d2e;
+  font-size: 1em;
+}
+.editUserInfoForm input::placeholder {
+  color: #064d2e;
+  font-size: 1em;
+}
+.editUserInfoForm .part {
+  width: 30%;
+}
+@media (max-width: 700px) {
+  .editUserInfoForm .part {
+    width: 100%;
+  }
+}
+
+.useredit-btns {
+  padding: 3em 0;
+}
+.useredit-btns .btn {
+  margin: 0px 10px;
+}
+
+.useredit-form {
+  margin: 2em 0 0 0;
+}
+.useredit-form input:disabled {
+  opacity: 0.5;
+}
+.useredit-form input[type=file]:disabled {
+  opacity: 0;
+}
+
+input[type=checkbox] {
+  display: inline !important;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+}
+
+.upload_avatar {
+  position: relative;
+}
+.upload_avatar .avatar_hover {
+  width: 101%;
+  background-color: #064d2e;
+  text-align: center;
+  color: #F6F0EC;
+  padding: 12px 0px;
+  border-radius: 18px;
+  position: absolute;
+  top: 2px;
+  cursor: pointer;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.bonusModalBg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.829);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+}
+
+.bonusModal {
+  width: 80vw;
+  background-color: rgb(235, 235, 235);
+  padding: 15px;
+  border-radius: 10px;
+}
+.bonusModal form {
+  height: 70vh;
+  overflow: scroll;
+}
+.bonusModal label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.bonusModal input {
+  width: 100%;
+  border: 1px solid black;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+.bonusModal .bonus_field {
+  margin: 30px 10px;
+}
+.bonusModal .bonus_type label {
+  display: inline-block;
+  font-weight: 400;
+}
+.bonusModal .bonus_type input {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.edit-casino-page input {
+  display: block;
+  background: white;
+  color: black;
+  width: 100%;
+}
+
+.edit_items_div {
+  display: none;
+}
+
+.edit_items_div:nth-of-type(1) {
+  display: block;
+}
+
+.toggle_item_divs {
+  display: flex;
+  flex-direction: row;
+  margin: 3em 0 1em 0;
+}
+.toggle_item_divs .togBtn {
+  padding: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d4d4d4;
+  color: black;
+  margin: 5px;
+}
+.toggle_item_divs .togBtn.active {
+  background-color: #064d2e;
+  color: #F6F0EC;
+}
+
+.edit_items_wrapper {
+  background-color: rgb(202, 202, 202);
+  border-radius: 9px;
+  padding: 1em;
+}
+.edit_items_wrapper h2 {
+  text-align: center;
+}
+
+.backPages .my-form-group {
+  padding: 1em 0;
+}
+.backPages label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.backPages input {
+  width: 100%;
+}
+.backPages textarea {
+  width: 100%;
+  height: 20em;
+}
+.backPages .image-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.backPages .image-display img {
+  width: 200px;
+}
+
+.filter_item_select_div .filter_items_wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  max-height: 25vh;
+  overflow: auto;
+  background-color: white;
+  padding: 10px;
+}
+
+.form-check {
+  display: flex !important;
+}
+.form-check .form-check-label {
+  margin-left: 5px;
+}
+.form-check label {
+  margin-left: 5px;
+}
+
+.editCasinoBonusWrapper {
+  background-color: gray;
+  padding: 10px;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.bonusGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.single_bonus {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.buttonWrapper .button {
+  margin: 5px;
+}
+
+.delete-casino {
+  margin-top: 3em;
+}
+
+.hidden_delete_confirm {
+  display: none;
+  padding-top: 20px;
+}
+
+.casino-submit-btn {
+  width: 100% !important;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: green;
+  color: white;
+  display: block;
+  font-size: 1.3rem;
+}
+
+.top_5_casino_listing {
+  margin: 30px 0px;
+  border: 2px solid #064d2e;
+  border-radius: 10px;
+  padding: 10px;
+}
+.top_5_casino_listing .delete_div {
+  text-align: center;
+  margin: 1em 0;
+}
+.top_5_casino_listing .delete_div span {
+  background: red;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.casino-rank-select {
+  margin: 10px 5px;
+  padding: 2px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.bonus-type-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.bonus_field .tooltip .tooltiptext {
+  pointer-events: none;
+  border: 2px solid #064d2e;
+  background-color: #F6F0EC;
+  color: #064d2e;
+}
+.bonus_field .tool-i {
+  display: block;
+}
+
+.enReplace {
+  display: none;
+}
+
+.esVersion {
+  display: none;
+}/*# sourceMappingURL=backpages.css.map */
